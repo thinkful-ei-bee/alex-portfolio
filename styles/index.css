@@ -1,0 +1,282 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: "Open Sans", sans-serif;
+        font-size: 18px;
+        color: #444;
+        text-align: center;
+        line-height: 1.5;
+        margin: 0em;
+        padding 0em;
+    }
+    
+    nav,
+    footer {
+        padding: 1% 0;
+        background-color: #aaa;
+    }
+    
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        text-align: right;
+    }
+    
+    footer {
+        text-align: left;
+    }
+    
+    header {
+        padding-top: 13%;
+        padding-bottom: 6%;
+    }
+    
+    .heroBackground {
+        background-color: purple;
+    }
+    
+    .button {
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    
+    section {
+        padding: 3% 0;
+    }
+    
+    section:nth-child(even) {}
+    
+    .page-navigation {
+        position: absolute;
+        content: '';
+        z-index: -1;
+        top: 0;
+        bottom: auto;
+        right: 59px;
+        left: 0;
+        height: 52px;
+        background-color: #fafafa;
+    }
+    
+    .aboutMeBackground {
+        background-color: green;
+    }
+    
+    #about-me-section p {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    
+    h1 {
+        margin: .33em;
+    }
+    
+    h2 {
+        margin: .33em;
+    }
+    
+    h3 {
+        margin: .53em;
+    }
+    
+    #projects {
+        padding-bottom: 2em;
+    }
+    
+    .project-card h3 {
+        text-align: center;
+    }
+    
+    h4 {
+        margin: .25em;
+        padding-left: .50em;
+        margin-bottom: .5em;
+    }
+    
+    h5 {
+        margin: .75em;
+    }
+    
+    h6 {
+        margin: .05em;
+    }
+    
+    .contact {
+        width: 100%;
+    }
+    
+    .contact-list {
+        font-size: .75em;
+    }
+    
+    #education {
+        padding: 2em;
+    }
+    
+    .education-card {
+        text-align: left;
+        border: 1px solid green;
+    }
+    
+    #experience-timeline {
+        padding: 2em;
+    }
+    
+    #job-card {
+        border: 1px solid black;
+        text-align: left;
+    }
+    
+    span {
+        display: block;
+        margin-left: .53em;
+    }
+    
+    .timeline-date {
+        text-align: left;
+        margin-left: 0em;
+    }
+    
+    .coding-languages {
+        margin: .5em;
+        word-wrap: break-word;
+        text-align: center;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    footer li {
+        display: inline-block;
+    }
+    
+    .footerBackground {
+        background-color: purple;
+    }
+    
+    #experience-timeline li {
+        font-size: 14px;
+    }
+    
+    .experienceBackground {
+        background-color: yellow;
+    }
+    
+    .education-card li {
+        font-size: 14px;
+    }
+    
+    .educationBackground {
+        background-color: red;
+    }
+    
+    #skills ul {
+        padding-left: 0em;
+    }
+    
+    #skills li {
+        display: inline-block;
+        margin: .25em;
+        padding: 5px 10px;
+        background: orange;
+    }
+    
+    .skillsBackground {
+        background-color: lightcyan;
+    }
+    
+    img {
+        width: 35%;
+        max-width: 250px;
+    }
+    
+    #projects img {
+        width: 100%;
+        max-width: 600px;
+    }
+    
+    .project-card {
+        text-align: center;
+        border: 1px solid green;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-bottom: .5em;
+    }
+    
+    .project-card p {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    
+    .projectBackground {
+        background-color: pink;
+    }
+    
+    .top-nav-menu a:hover {
+        background-color: white;
+    }
+    
+    .top-nav-menu a {
+        display: none;
+        text-align: left;
+    }
+    
+    .responsive a {
+        display: block;
+        text-align: left;
+    }
+    
+    .dropDown:hover {
+        background-color: white;
+    }
+    
+    .dropDown {}
+    
+    .Resume-Button {
+        border: 3px solid orange;
+        border-radius: 3px;
+        padding: 5px;
+        margin-left: 1em;
+        margin-top: 2em;
+    }
+    
+    .aboutMebackground {
+        background-color: green;
+    }
+    
+    @media only screen and (min-width: 600px) {
+        .top-nav-menu a {
+            display: inline-block;
+            text-align: center;
+            padding-left: .5em;
+            padding-right: .5em;
+        }
+        nav {
+            text-align: center;
+        }
+        .dropDown {
+            display: none;
+        }
+        #about-me-section p {
+            padding-left: 2em;
+            padding-right: 2em;
+        }
+        section {
+            max-width: 650px;
+            margin: auto;
+        }
+        footer {
+            max-width: 650px;
+            margin: auto;
+        }
+        nav {
+            max-width: 650px;
+            margin: auto;
+        }
+    }
