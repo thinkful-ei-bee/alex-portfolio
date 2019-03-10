@@ -15,7 +15,7 @@
     nav,
     footer {
         padding: 1% 0;
-        background-color: #aaa;
+        background-color: #FDF0D5;
     }
     
     nav {
@@ -37,7 +37,7 @@
     }
     
     .heroBackground {
-        background-color: purple;
+        background-color: #A9E4EF
     }
     
     .button {
@@ -64,7 +64,7 @@
     }
     
     .aboutMeBackground {
-        background-color: green;
+        background-color: #C6E2E9;
     }
     
     #about-me-section p {
@@ -90,6 +90,30 @@
     
     .project-card h3 {
         text-align: center;
+    }
+    
+    #projects img {
+        width: 100%;
+        max-width: 600px;
+    }
+    
+    .project-card {
+        text-align: center;
+        border: 1px solid yellow;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-bottom: .5em;
+        background-color: #A7BED3;
+        box-shadow: 3px 6px rgba(0, 0, 0, 0.08);
+    }
+    
+    .project-card p {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    
+    .projectBackground {
+        background-color: #25CED1
     }
     
     h4 {
@@ -120,16 +144,34 @@
     
     .education-card {
         text-align: left;
-        border: 1px solid green;
+        border: 1px solid yellow;
+        background-color: #A7BED3
+    }
+    
+    .education-card li {
+        font-size: 14px;
+    }
+    
+    .educationBackground {
+        background-color: #25CED1;
     }
     
     #experience-timeline {
         padding: 2em;
     }
     
+    #experience-timeline li {
+        font-size: 14px;
+    }
+    
+    .experienceBackground {
+        background-color: #C6E2E9;
+    }
+    
     #job-card {
-        border: 1px solid black;
+        border: 1px solid yellow;
         text-align: left;
+        background-color: #A7BED3
     }
     
     span {
@@ -157,23 +199,7 @@
     }
     
     .footerBackground {
-        background-color: purple;
-    }
-    
-    #experience-timeline li {
-        font-size: 14px;
-    }
-    
-    .experienceBackground {
-        background-color: yellow;
-    }
-    
-    .education-card li {
-        font-size: 14px;
-    }
-    
-    .educationBackground {
-        background-color: red;
+        background-color: #A9E4EF;
     }
     
     #skills ul {
@@ -188,34 +214,12 @@
     }
     
     .skillsBackground {
-        background-color: lightcyan;
+        background-color: #C6E2E9;
     }
     
     img {
         width: 35%;
         max-width: 250px;
-    }
-    
-    #projects img {
-        width: 100%;
-        max-width: 600px;
-    }
-    
-    .project-card {
-        text-align: center;
-        border: 1px solid green;
-        margin-left: 10%;
-        margin-right: 10%;
-        padding-bottom: .5em;
-    }
-    
-    .project-card p {
-        padding-left: 1em;
-        padding-right: 1em;
-    }
-    
-    .projectBackground {
-        background-color: pink;
     }
     
     .top-nav-menu a:hover {
