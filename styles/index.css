@@ -19,12 +19,15 @@
     }
     
     nav {
-        position: fixed;
         top: 0;
         left: 0;
         right: 0;
         z-index: 10;
         text-align: right;
+    }
+    
+    .navBackground {
+        background-color: #E0DFD5;
     }
     
     footer {
@@ -199,7 +202,7 @@
     }
     
     .footerBackground {
-        background-color: #A9E4EF;
+        background-color: #E0DFD5;
     }
     
     #skills ul {
@@ -247,11 +250,16 @@
     }
     
     .Resume-Button {
-        border: 3px solid black;
+        text-decoration: none;
+    }
+    
+    .ResumeBorder {
+        display: inline-block;
+        padding: .25em;
+        border: 1px solid black;
         border-radius: 3px;
-        padding: 5px;
-        margin-left: 1em;
-        margin-top: 2em;
+        margin-bottom: .75em;
+        margin-left: 1.5em;
     }
     
     .aboutMebackground {

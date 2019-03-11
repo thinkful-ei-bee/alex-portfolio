@@ -10,25 +10,31 @@
 </head>
 
 <body>
-    <nav role="top-navigation">
-        <button class="dropDown" onclick="myFunction()"><i class="fa fa-bars"></i> Menu</button>
-        <div class="top-nav-menu" id="topNav">
-            <a href="#about-me-section" onclick="myFunction()">About Me</a>
-            <a href="#projects" onclick="myFunction()">Projects</a>
-            <a href="#experience-timeline" onclick="myFunction()">Experience</a>
-            <a href="#education" onclick="myFunction()">Education</a>
-            <a href="#skills" onclick="myFunction()">Skills</a>
-            <a href="#contact" onclick="myFunction()">Contact Me</a>
-        </div>
-    </nav>
+    <div class="navBackground">
+        <nav role="top-navigation">
+            <button class="dropDown" onclick="myFunction()"><i class="fa fa-bars"></i> Menu</button>
+            <div class="top-nav-menu" id="topNav">
+                <a href="#about-me-section" onclick="myFunction()">About Me</a>
+                <a href="#projects" onclick="myFunction()">Projects</a>
+                <a href="#experience-timeline" onclick="myFunction()">Experience</a>
+                <a href="#education" onclick="myFunction()">Education</a>
+                <a href="#skills" onclick="myFunction()">Skills</a>
+                <a href="#contact" onclick="myFunction()">Contact Me</a>
+            </div>
+        </nav>
+    </div>
     <main role="main">
         <div class="heroBackground">
             <header role="banner">
                 <img src="images/Headshot.png" alt="profile">
                 <h1>Alex Varghese</h1>
                 <h3>Full Stack Developer</h3>
-                <a href="documents/Alex Varghese Resume.pdf" class="Resume-Button">Download Resume (pdf)</a>
-                <a href="documents/Alex Varghese Resume.docx" class="Resume-Button">Download Resume (docx)</a>
+                <div class="ResumeBorder">
+                    <a href="documents/Alex Varghese Resume.pdf" class="Resume-Button">Download Resume (pdf)</a>
+                </div>
+                <div class="ResumeBorder">
+                    <a href="documents/Alex Varghese Resume.docx" class="Resume-Button">Download Resume (docx)</a>
+                </div>
             </header>
         </div>
 
@@ -130,17 +136,17 @@
             <ul class="contact-list ">
                 <li>
                     <a name="github-link " href="mailto: alex.varghese250@gmail.com ">
-                        <i class="fa fa-google "></i>
+                        <i class="fa fa-google fa-2x"></i>
                     </a>
                 </li>
                 <li>
                     <a name="github-link " href="https://github.com/AlexVarghese25 " target="_blank ">
-                        <i class="fa fa-github "></i>
+                        <i class="fa fa-github fa-2x"></i>
                     </a>
                 </li>
                 <li>
                     <a name="github-linkedin " href="https://www.linkedin.com/in/alex-varghese-88ba437b/ " target="_blank ">
-                        <i class="fa fa-linkedin "></i>
+                        <i class="fa fa-linkedin fa-2x"></i>
                     </a>
                 </li>
             </ul>
